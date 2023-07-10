@@ -1,0 +1,192 @@
+/* Add your CSS styles here */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F7F0F2;
+    transition: background-color .5s;
+}
+
+main {
+    margin-left: 30px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    transition: margin-left .5s;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #6C1546; /* Replace with your desired font color */
+}
+
+h2 {
+    color: #6C1546; /* Replace with your desired font color */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p, ul {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #6C1546; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Link hover styles */
+a:hover {
+    color: #DC5694;
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Visited link styles */
+a:visited {
+    color: #6C1546; /* Visited link color */
+}
+
+#header {
+    /*display: flex;
+    align-items: flex-start;
+    position: relative;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-menu-button {
+    font-size: 48px;
+    cursor: pointer;
+    color: #6C1546;
+    position: sticky;
+    margin-right: auto;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#header-content h1 {
+    margin: 0;
+}
+
+#header-content h1:first-child {
+    margin-right: 10px;
+}
+
+#map-container {
+    max-width: 800px;
+    height: 700px;
+    align-content: center;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden; /* Add this property to hide any scrollbars */
+    position: relative; /* Add this property for positioning the iframe */
+}
+
+#map-container iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute; /* Position the iframe absolutely */
+    top: 0;
+    left: 0
+}
+
+#date-container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    overflow: hidden; /* Hide the vertical scrollbar */
+}
+
+#date-container iframe {
+    width: 100%;
+    height: 962px;
+    border: 0;
+    overflow: hidden; /* Hide the vertical scrollbar */
+}
+
+.header-overlay::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #6C1546; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F7F0F2;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #DC5694;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation
+  main {
+    transition: margin-left .5s;
+    padding: none;
+  }
+  */
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+
+    .header-overlay {
+        &:before {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    }
+  }
+
+
+
+
+/* Add more styles as needed 
+F7F0F2*/
+
