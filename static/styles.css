@@ -179,6 +179,14 @@ a:visited {
 
   /* On smaller screens */
 @media screen and (max-width: 480px) {
+    body {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #F7F0F2;
+        transition: background-color .5s;
+    }
     .sidenav {
         padding-top: 30px; /* Decreased top padding */
     }
