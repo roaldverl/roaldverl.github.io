@@ -2,7 +2,7 @@
 function openNav() {
   var windowWidth = window.innerWidth || document.documentElement.clientWidth;
 
-  if (windowWidth < 1024) { // Adjust the screen width breakpoint as needed
+  if (windowWidth < 768) { // Adjust the screen width breakpoint as needed
       document.getElementById("mySidenav").style.width = "100%";
       document.getElementById("mainContent").style.marginTop = "250px"; // Add top margin to create space for the menu
   } else {
