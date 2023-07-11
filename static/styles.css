@@ -176,12 +176,6 @@ a:visited {
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-
-    .header-overlay {
-        &:before {
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-    }
   }
 
 
