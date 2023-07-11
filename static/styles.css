@@ -60,13 +60,14 @@ a:visited {
     position: relative;*/
     display: flex;
     justify-content: space-between;
+    z-index: 999;
 }
 
 #header-menu-button {
-    font-size: 48px;
+    font-size: 60px;
     cursor: pointer;
     color: #6C1546;
-    position: sticky;
+    position: fixed;
     margin-right: auto;
     top: 10px;
     left: 10px;
@@ -182,12 +183,12 @@ a:visited {
     }
 
     .sidenav a {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .sidenav .closebtn {
         right: 5px; /* Decreased right margin */
-        font-size: 32px; /* Decreased font size */
+        font-size: 48px; /* Decreased font size */
     }
 
     #header-menu-button {
