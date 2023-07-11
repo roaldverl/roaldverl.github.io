@@ -11,6 +11,13 @@ function openNav() {
       document.getElementById("header").style.marginLeft = "250px";
       document.getElementById("header-menu-button").style.display = "none";
   }
+
+
+  // Close the menu when a menu item is tapped
+  var menuItems = document.querySelectorAll(".sidenav a");
+  menuItems.forEach(function(item) {
+    item.addEventListener("click", closeNav);
+  });
 }
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
