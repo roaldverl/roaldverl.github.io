@@ -164,13 +164,6 @@ a:visited {
     font-size: 36px;
     margin-left: 50px;
   }
-
-  /* Add sticky behavior to the menu button */
-#header-menu-button.sticky {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-}
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size)
   @media screen and (max-height: 450px) {
@@ -194,7 +187,7 @@ a:visited {
     }
 
     #header-menu-button {
-        font-size: 36px; /* Decreased font size */
+        font-size: 58px; /* Increased font size */
     }
 }
 

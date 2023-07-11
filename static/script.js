@@ -15,10 +15,15 @@ function openNav() {
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("mainContent").style.marginLeft = "0";
-    document.getElementById("header").style.marginLeft = "0";
-    document.getElementById("header-menu-button").style.display = "inline-block"; // Show the menu button
-    /*document.getElementById("header").classList.remove("header-overlay");*/
-    /*document.body.style.backgroundColor = "#F7F0F2";*/
-  }
+    var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+
+    if (windowWidth < 768) { // Adjust the screen width breakpoint as needed
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mainContent").style.marginTop = "0"; // Remove the top margin
+    } else {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mainContent").style.marginLeft = "0";
+        document.getElementById("header").style.marginLeft = "0";
+        document.getElementById("header-menu-button").style.display = "inline-block"; // Show the menu button
+    }
+}
