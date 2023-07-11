@@ -34,6 +34,10 @@ p, ul {
     margin-right: auto;
 }
 
+li {
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+
 a {
     color: #6C1546; /* Link color */
     text-decoration: none; /* Remove underline */
