@@ -164,6 +164,13 @@ a:visited {
     font-size: 36px;
     margin-left: 50px;
   }
+
+  /* Add sticky behavior to the menu button */
+#header-menu-button.sticky {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation
   main {
