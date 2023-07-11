@@ -1,6 +1,7 @@
 /* Add your CSS styles here */
 body {
-    margin: 0;
+    margin-left: 50px;
+    margin-right:40px;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #F7F0F2;
@@ -64,7 +65,7 @@ a:visited {
 }
 
 #header-menu-button {
-    font-size: 60px;
+    font-size: 48px;
     cursor: pointer;
     color: #6C1546;
     position: fixed;
@@ -192,7 +193,7 @@ a:visited {
     }
 
     #header-menu-button {
-        font-size: 58px; /* Increased font size */
+        font-size: 48px; /* Increased font size */
     }
 }
 
